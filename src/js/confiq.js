@@ -4,4 +4,7 @@ export const TIMEOUT_SEC = 10;
 export const RES_PER_PAGE = 10;
 export const DEFAULT_PAGE = 1;
 export const CLOSE_WINDOW_SEC = 2.5;
-console.log(1);
+const newFeature = function () {
+  console.log('Welcome Home');
+};
+newFeature();
